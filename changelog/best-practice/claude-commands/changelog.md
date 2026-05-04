@@ -249,3 +249,42 @@ No priority action items — report is fully in sync with official documentation
 | 8 | MED | Changed Description | Update `/theme` description — official adds "Auto (match terminal)" option (v2.1.111) | ✅ COMPLETE (added "Auto (match terminal)" to description at #16 in Config tag) |
 | 9 | MED | Changed Description | Update `/model` description — official notes it warns before switching mid-conversation (v2.1.108) | ✅ COMPLETE (added mid-conversation warning detail at #46 in Model tag) |
 | 10 | MED | New Alias | Add `/routines` alias to `/schedule` command per official docs | ✅ COMPLETE (added `Alias: /routines` at #64 in Remote tag) |
+
+---
+
+## [2026-04-24 12:29 AM PKT] Claude Code v2.1.118
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | New Field | Add `arguments` to frontmatter table — named positional arguments for `$name` substitution (count 14 → 15) | ✅ COMPLETE (added after `argument-hint`, count updated 14 → 15) |
+| 2 | HIGH | Changed Description | Update `/cost` — now just an alias for `/usage` | ✅ COMPLETE (description simplified to "Alias for `/usage`") |
+| 3 | HIGH | Changed Description | Update `/stats` — now alias for `/usage`, opens Stats tab | ✅ COMPLETE (description updated to "Alias for `/usage`. Opens on the Stats tab") |
+| 4 | HIGH | Changed Description | Update `/usage` — canonical command absorbing `/cost` and `/stats`; note aliases | ✅ COMPLETE (expanded to "Show session cost, plan usage limits, and activity stats. `/cost` and `/stats` are aliases") |
+| 5 | MED | Changed Argument | Update `/voice` signature to `/voice [hold\|tap\|off]` | ✅ COMPLETE (signature and description updated) |
+| 6 | MED | Changed Description | Update `/theme` — add custom themes support (`~/.claude/themes/`, plugins, "New custom theme…") | ✅ COMPLETE (custom themes detail added to description) |
+| 7 | MED | Changed Description | Update `/terminal-setup` — replace terminal list (drop Warp; add Cursor, Windsurf, Zed) | ✅ COMPLETE (terminal list replaced: VS Code, Cursor, Windsurf, Alacritty, Zed) |
+| 8 | LOW | Changed Description | Update `/effort` — note that `max` level is session-only | ✅ COMPLETE (added "(session-only)" qualifier to `max` in description) |
+
+---
+
+## [2026-04-26 01:10 PM PKT] Claude Code v2.1.119
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | Changed Description | Update `/branch` — add `CLAUDE_CODE_FORK_SUBAGENT` env-var note explaining `/fork` divergence (v2.1.117) | ✅ COMPLETE (appended fork-subagent note to description at #67 in Session tag) |
+| 2 | MED | Changed Description | Update `/focus` — add "Only available in fullscreen rendering" qualifier (v2.1.110) | ✅ COMPLETE (appended fullscreen-only qualifier at #8 in Config tag) |
+| 3 | MED | Changed Description | Update `/skills` — add "Press `t` to sort by token count" (v2.1.110/111) | ✅ COMPLETE (appended sort-by-token-count detail at #42 in Extensions tag) |
+| 4 | MED | Changed Description | Update `/clear` — reword to contrast with `/compact` per official docs | ✅ COMPLETE (replaced description with "Start a new conversation with empty context… use `/compact` instead" at #69 in Session tag) |
+| 5 | LOW | Scope Decision | 6 bundled skills (`/batch`, `/claude-api`, `/debug`, `/fewer-permission-prompts`, `/loop`, `/simplify`) listed in upstream unified table but excluded per report scope | ❌ INVALID (recurring from v2.1.107 — user previously chose to keep report scoped to built-in commands only) |
+
+---
+
+## [2026-04-29 12:50 AM PKT] Claude Code v2.1.121
+
+No priority action items — report is fully in sync with official documentation (15 frontmatter fields, 75 built-in commands).
+
+---
+
+## [2026-05-01 03:31 PM PKT] Claude Code v2.1.126
+
+No priority action items — report is fully in sync with official documentation (15 frontmatter fields, 75 built-in commands).

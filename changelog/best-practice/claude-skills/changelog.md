@@ -161,3 +161,31 @@ No drift detected — frontmatter fields (14) and bundled skills (5) are fully s
 ## [2026-04-18 07:53 PM PKT] Claude Code v2.1.114
 
 No drift detected — frontmatter fields (14) and bundled skills (5) are fully synchronized with official docs.
+
+---
+
+## [2026-04-24 12:27 AM PKT] Claude Code v2.1.118
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | New Field | Add `arguments` field to frontmatter table — accepts string or YAML list; named positional arguments for `$name` substitution in skill content; maps to argument positions in order | ✅ COMPLETE (added `arguments` row after `argument-hint`, count updated 14→15) |
+
+---
+
+## [2026-04-26 01:09 PM PKT] Claude Code v2.1.119
+
+No drift detected — frontmatter fields (15) and bundled skills (5) are fully synchronized with official docs.
+
+---
+
+## [2026-04-29 12:48 AM PKT] Claude Code v2.1.121
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | New Skill | Add `fewer-permission-prompts` to official bundled skills table — introduced in v2.1.112; canonical commands reference (`/en/commands`) marks it `[Skill]` alongside the other 5 bundled skills. The Skills Reference prose at `/en/skills` undercounts (lists 5); commands page is authoritative | ✅ COMPLETE (added row 6 to bundled skills table, count updated 5→6) |
+
+---
+
+## [2026-05-01 03:30 PM PKT] Claude Code v2.1.126
+
+No drift detected — frontmatter fields (15) and bundled skills (6) are fully synchronized with official docs.
